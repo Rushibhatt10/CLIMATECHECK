@@ -1,0 +1,3 @@
+# Optional: adds the Streamlit dashboard on top of the core pipeline
+-r requirements.txt
+streamlit>=1.50

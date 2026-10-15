@@ -1,0 +1,5 @@
+# Core pipeline (Spark + analysis + figures)
+pyspark==4.0.1
+pandas>=2.2.3,<3
+matplotlib>=3.9,<4
+pyarrow>=18

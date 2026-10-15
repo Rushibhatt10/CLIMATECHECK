@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Spark / temp
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+tmp/
+
+# Large or downloaded datasets (the small demo sample in data/sample is kept)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated results (re-create by running the pipeline)
+output/*
+figures/*
+!output/.gitkeep
+!figures/.gitkeep
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Aider Studio (auto-added)
+REPO_MAP.md
+.aider/
